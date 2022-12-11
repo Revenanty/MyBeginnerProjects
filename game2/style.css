@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+body{
+    background-image: url("https://cf.geekdo-images.com/lH0TJT2KYBCrM_1sMf9huw__opengraph/img/0DywZVHcUXhnrk-MevRd56iJQp4=/fit-in/1200x630/filters:strip_icc()/pic6273087.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.mainContaner{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+   
+}
+h1{
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+.grid{
+    background-color:black;
+    width: 300px;
+    height: 300px;
+    border: solid black 1px;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url("Space+Invader+logo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.grid div{
+    width: 20px;
+    height: 20px;
+}
+.invader{
+    background-color: purple;
+    border-radius: 10px;
+}
+.shoter{
+    background-color: blue;
+}
+.laser{
+    background-color:palegreen;
+}
+.boom{
+    background-color: red;
+}
